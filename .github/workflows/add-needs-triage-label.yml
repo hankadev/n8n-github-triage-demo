@@ -1,0 +1,23 @@
+name: Add needs-triage label on new issues
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  add-needs-triage-label:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      contents: read
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Add needs-triage label
+        run: |
+          echo "Adding needs-triage label"
+          gh issue edit ${{ github.event.issue.number }} --add-label "needs-triage"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
