@@ -43,21 +43,21 @@ The AI analyzes issue titles and descriptions to provide structured classificati
 ### Classification Rules
 
 #### Issue Types
-- **bug**: Broken functionality or unexpected behavior
-- **enhancement**: Feature requests or improvements
-- **question**: User inquiries or clarification requests
-- **documentation**: Documentation-related issues
-- **tech-debt**: Refactoring, internal cleanup, maintenance tasks
+- **`bug`**: Broken functionality or unexpected behavior
+- **`enhancement`**: Feature requests or improvements
+- **`question`**: User inquiries or clarification requests
+- **`documentation`**: Documentation-related issues
+- **`tech-debt`**: Refactoring, internal cleanup, maintenance tasks
 
 #### Priority Levels
-- **priority: high**: Critical or urgent issues requiring immediate attention
-- **priority: medium**: Important but not urgent issues
-- **priority: low**: Minor, trivial, or cosmetic issues
+- **`priority: high`**: Critical or urgent issues requiring immediate attention
+- **`priority: medium`**: Important but not urgent issues
+- **`priority: low`**: Minor, trivial, or cosmetic issues
 
 #### Complexity Levels
-- **good-first-issue**: Simple, well-defined issues easy for new contributors (styling, copy changes, small fixes). Priority is NOT high.
-- **regular**: Standard issues that require some experience or understanding of the codebase
-- **complex**: Difficult issues that may involve multiple components, advanced knowledge, or high-risk changes
+- **`good-first-issue`**: Simple, well-defined issues easy for new contributors (styling, copy changes, small fixes). Priority is NOT high.
+- **`regular`**: Standard issues that require some experience or understanding of the codebase
+- **`complex`**: Difficult issues that may involve multiple components, advanced knowledge, or high-risk changes
 
 ## Setup Instructions
 
